@@ -50,7 +50,7 @@ while True:
         print(' '.join(final))
 
         if len(set(final) & set(nao_achados)) > 0:
-            print('\nAs palavras traduzidas são: \n', set(final) & set(nao_achados))
+            print('\nAs palavras não traduzidas são: \n', set(final) & set(nao_achados))
         
         final.clear()
         nao_achados.clear()    
